@@ -1,0 +1,7 @@
+plugins {
+    id("com.twotheleft.gradle.tigergraph")
+}
+
+tigergraph {
+    scriptDir.set(file("scripts"))
+}
